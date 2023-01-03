@@ -9,18 +9,30 @@ export default function Projects({ projects }) {
   return (
     <>
       <LayOut>
-        <Head>
-          <title> 프로젝트 </title>
-          <meta name="description" content="프로젝트" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-        <h1>총 프로젝트 : {projects.results.length}</h1>
-        {projects.results.map((data) => (
-          <>
-            <ProjectItem key={data.id} data={data} />
-          </>
-        ))}
+        <div className="flex flex-col items-center justify-center min-h-screen m-5 px-10 py-10 mb-10">
+          <Head>
+            <title> 프로젝트 </title>
+            <meta name="description" content="프로젝트" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1"
+            />
+            <link rel="icon" href="/favicon.ico" />
+          </Head>
+          <h1 className="text-2xl font-bold sm:text-6xl">
+            총 프로젝트 :
+            <span className="pl-5 text-blue-500">
+              {projects.results.length}
+            </span>
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 py-5 m-6 gap-8 w-full">
+            {projects.results.map((data) => (
+              <>
+                <ProjectItem key={data.id} data={data} />
+              </>
+            ))}
+          </div>
+        </div>
       </LayOut>
     </>
   );
