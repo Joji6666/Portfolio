@@ -1,4 +1,4 @@
-export default function () {
+export default function AboutMe() {
   return (
     <div>
       <h1>자기소개</h1>
