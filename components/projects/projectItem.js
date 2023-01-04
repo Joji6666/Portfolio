@@ -1,5 +1,6 @@
 import Image from "next/legacy/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function ProjectItem({ data }) {
   const projectTitle = data.properties.이름.title[0].plain_text;

@@ -2,12 +2,19 @@ import Head from "next/head";
 import LayOut from "../components/layout";
 import ProjectItem from "../components/projects/projectItem";
 import { DATABASE_ID, TOKKEN } from "../config";
+import { motion } from "framer-motion";
 
 export default function Projects({ projects }) {
   console.log(projects);
 
   return (
-    <>
+    <motion.div
+      initial={{ y: 300, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{
+        duration: 0.4,
+      }}
+    >
       <LayOut>
         <div className="flex flex-col items-center justify-center min-h-screen m-5 px-10 py-10 mb-10">
           <Head>
@@ -34,7 +41,7 @@ export default function Projects({ projects }) {
           </div>
         </div>
       </LayOut>
-    </>
+    </motion.div>
   );
 }
 

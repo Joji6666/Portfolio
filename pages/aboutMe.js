@@ -1,10 +1,17 @@
 import { Space_Mono } from "@next/font/google";
 import Head from "next/head";
 import LayOut from "../components/layout";
+import { motion } from "framer-motion";
 
 export default function AboutMe() {
   return (
-    <div>
+    <motion.div
+      initial={{ y: 300, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{
+        duration: 0.4,
+      }}
+    >
       <LayOut>
         <div className=" min-h-screen m-5 px-10 py-10 mb-10">
           <Head>
@@ -124,6 +131,6 @@ export default function AboutMe() {
           </div>
         </div>
       </LayOut>
-    </div>
+    </motion.div>
   );
 }
