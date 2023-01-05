@@ -18,7 +18,7 @@ export default function Hero() {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString("프론트엔드 개발자를 꿈꾸는 김진입니다.")
+                .typeString("프론트엔드 개발자 김진입니다.")
                 .callFunction(() => {})
                 .start();
             }}
