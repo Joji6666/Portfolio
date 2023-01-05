@@ -4,8 +4,8 @@ import Typewriter from "typewriter-effect";
 export default function Hero() {
   return (
     <>
-      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center  sm:text-left break-all ">
+        <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-gray-900 break-all">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
@@ -25,7 +25,7 @@ export default function Hero() {
           />
         </h1>
 
-        <p id="hero-content" className="mb-8 leading-relaxed">
+        <p id="hero-content" className="mb-8 leading-relaxed break-all">
           <p>
             새로운 도전을 좋아하며 제게 나타난 문제를 해결할 때 크나큰 성취감을
             느낍니다.

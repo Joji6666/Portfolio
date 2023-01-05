@@ -71,10 +71,10 @@ export default function ProjectItem({ data }) {
             </svg>
           </div>
         </Link>
-        <div className="flex items-start mt-2">
+        <div className="flex break-all items-start mt-2">
           {projectTags.map((tags) => (
             <h1
-              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30"
+              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 text-sm w-30"
               key={tags.id}
             >
               {tags.name}

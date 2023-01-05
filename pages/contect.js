@@ -25,13 +25,15 @@ export default function Contect() {
           </Head>
           <div className="md:ml-auto md:mr-auto flex flex-col items-center  justify-center">
             <div className="flex mb-10">
-              <span className="text-3xl font-blod">카카오톡 오픈채팅 : </span>
+              <span className="sm:text-3xl font-blod text-xl">
+                카카오톡 오픈채팅 :
+              </span>
               <Link href="https://open.kakao.com/o/s3Yg6VWe">
                 <div className="ml-3 text-gray-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
-                    class="w-12 h-12 pr-2 pb-3"
+                    class="w-11 h-11 pr-2 pb-3"
                   >
                     <path d="M12 1c-6.627 0-12 4.364-12 9.749 0 3.131 1.817 5.917 4.64 7.7.868 2.167-1.083 4.008-3.142 4.503 2.271.195 6.311-.121 9.374-2.498 7.095.538 13.128-3.997 13.128-9.705 0-5.385-5.373-9.749-12-9.749z" />
                   </svg>
@@ -39,7 +41,9 @@ export default function Contect() {
               </Link>
             </div>
             <div className="flex mb-10">
-              <span className="text-3xl font-blod">인스타그램 :</span>
+              <span className="sm:text-3xl font-blod text-xl">
+                인스타그램 :
+              </span>
               <Link href="https://www.instagram.com/warigari_warigari/">
                 <div className="ml-3 text-gray-500">
                   <svg
@@ -63,8 +67,8 @@ export default function Contect() {
                 <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
               </svg>
 
-              <span className="text-3xl font-blod">이메일 :</span>
-              <span className="text-3xl pl-3 text-blue-500 pr-5 ">
+              <span className="sm:text-3xl font-blod text-xl">이메일 :</span>
+              <span className="sm:text-3xl pl-3 text-blue-500  pr-5 text-xl ">
                 rlawls11000@naver.com
               </span>
             </div>
@@ -83,8 +87,8 @@ export default function Contect() {
                 />
               </svg>
 
-              <span className="text-3xl font-blod">연락처 :</span>
-              <span className="text-3xl pl-3 text-blue-500 pr-5 ">
+              <span className="sm:text-3xl font-blod text-xl">연락처 :</span>
+              <span className="sm:text-3xl pl-3 text-blue-500 pr-5  text-xl">
                 010-6622-9124
               </span>
             </div>
