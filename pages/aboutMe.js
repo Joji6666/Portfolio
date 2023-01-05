@@ -91,7 +91,7 @@ export default function AboutMe() {
               <span className="sm:text-3xl text-base font-blod">학력 :</span>
 
               <span className="sm:text-3xl text-base pl-3 text-blue-500 pr-5">
-                원주공업고등학교 &#40;전자기계과&#41;
+                원주공업고등학교&#40;전자기계과&#41;
               </span>
             </div>
             <div className="flex mb-10">
