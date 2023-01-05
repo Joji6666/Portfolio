@@ -5,6 +5,7 @@ module.exports = {
       xs: { min: "10px", max: "40px" },
     },
   },
+
   mode: "jit",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
