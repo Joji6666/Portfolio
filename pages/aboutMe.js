@@ -23,7 +23,7 @@ export default function AboutMe() {
             />
             <link rel="icon" href="/favicon.ico" />
           </Head>
-          <div className="md:ml-auto md:mr-auto flex flex-col items-center  justify-center text-center sm:text-left ">
+          <div className="contectWarp md:ml-auto md:mr-auto flex flex-col items-center  justify-center xl:text-3xl sm:text-xl ">
             <div className="flex mb-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
