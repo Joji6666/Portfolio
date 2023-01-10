@@ -18,8 +18,8 @@ export default function Projects({ projects }) {
       <LayOut>
         <div className="flex flex-col items-center justify-center min-h-screen m-5 px-10 py-10 mb-10">
           <Head>
-            <title> 프로젝트 </title>
-            <meta name="description" content="프로젝트" />
+            <title> project </title>
+            <meta name="description" content="project" />
             <meta
               name="viewport"
               content="width=device-width, initial-scale=1"
