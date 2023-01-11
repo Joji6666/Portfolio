@@ -45,9 +45,7 @@ p {
    hover:scale-105
   hover:shadow-lg 
   dark:border-gray-900/50
-  dark:hover:shadow-gray-500/50 
-  blur-sm
-  hover:blur-none;
+  dark:hover:shadow-gray-500/50;
 }
 
 .contectWarp svg {
