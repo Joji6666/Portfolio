@@ -129,7 +129,7 @@ export default function AboutMe() {
 
               <span className="sm:text-3xl text-base font-blod">주소지 :</span>
               <span className="sm:text-3xl text-base pl-3 text-blue-500 pr-5 ">
-                경기도 성남시 중원구
+                강원도 원주시 단구로408
               </span>
             </div>
           </div>
