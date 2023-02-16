@@ -57,7 +57,7 @@ export default function AboutMe() {
                 생년월일 :
               </span>
               <span className="sm:text-3xl pl-3 text-blue-500 pr-5 text-base  ">
-                95.12.28
+                1995.12.28
               </span>
             </div>
             <div className="flex mb-10">
